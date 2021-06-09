@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Poppins:400,700&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('./images/bg-hero-desktop.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color:  hsl(193, 100%, 96%);
+    height: fit-content;
+	color: #fff;
+	font-family: 'Open sans', sans-serif;
+	font-size: 18px;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.logo{
+    height: 10px;
+    width: 100%;
+    margin: 5px 15px;
+}
+
+.try{
+    float: right;
+    width: fit-content;
+    height: fit-content;
+    margin-top: -35px;
+    margin-right: 50px;
+    background-color: #fff;
+	border-radius: 50px;
+	border: none;
+    padding: 10px 60px;
+    color: #000;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+	font-family: 'Poppins', sans-serif;
+    font-style: bold;
+}
+
+p {
+	opacity: 0.8;
+}
+
+.img1{
+    position: absolute;
+    float: right;
+    width: 500px;
+    margin-left: -160px;
+    margin-top: 150px;
+    align-items: center;
+}
+
+.content1{
+    position: relative;
+    margin-top: 150px;
+    float: left;
+    color: #000;
+}
+
+.register {
+	background-color: #fff;
+	border-radius: 50px;
+	border: none;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+	color: hsl(257, 40%, 49%);
+	padding: 10px 100px;
+    cursor: pointer;
+}
+
+.register:hover{
+    background-color: hsl(322, 100%, 66%) ;
+    color: #fff;
+}
+
+.flex-container {
+    margin-top: 120px;
+    padding: 130px;
+    display:block;
+}
+  
+.flex-container > div {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+    color: #000;
+    margin: 20px;
+    padding: 30px;
+    font-size: 18px;
+    height: fit-content;
+}
+
+.box_content{
+    text-align: left;
+    width: 50%;
+    margin-top: 90px;
+}
+
+.box_content h2{
+    margin-left: 40px;
+}
+
+.textgrey{
+    padding: 40px;
+    color: hsl(208, 11%, 55%);
+}
+
+.rimg{
+    margin-left: 600px;
+    margin-top: -380px;
+    width: 200px;
+    height: 300px;
+}
+
+.box_content1{
+    text-align: right;
+    margin-top: 90px;
+    margin-left: 380px;
+    width: 50%;
+    height: fit-content;
+}
+
+.limg{
+    display: block;
+    width: 200px;
+    height: 300px;
+    margin-left: -290px;
+    margin-top: -330px;
+}
+
+
+
+@media screen and (max-width: 375px) {
+	body{
+        justify-content: center;
+    }
+
+    .logo img{
+        height: 20px;
+        margin-top: 20px;
+    }
+
+    .try{
+        margin-top: -25px;
+        margin-right: 20px;
+        font-size: 13px;
+        padding: 10px 20px;
+    }
+
+    .content1{
+        margin-top: 80px;
+        margin-left: 30px;
+        justify-content: center;
+        text-align: center;
+        position: relative;
+    }
+
+    .img1{
+        width: 280px;
+        margin: 20px 30px;
+        position: absolute;
+        justify-content: center;
+    }
+
+    .flex-container {
+        margin-top: 200px;
+        padding: 20px;
+        display: block;
+    }
+
+    .textgrey{
+        padding: 0;
+    }
+
+    .box{
+        width: 300px;
+        margin-left: -330px;
+    }
+
+    .box_content{
+        width: 260px;
+        margin-top: 240px;
+        height: fit-content;
+    }
+
+    .box_content h2{
+        margin-left: 40px;
+    }
+
+    .rimg{
+        width: 200px;
+        height: 200px;
+        margin-left: 20px;
+        margin-top: -750px;
+    }
+
+    .limg{
+        width: 200px;
+        height: 200px;
+        margin-left: 30px;
+        margin-top: -380px;
+    }
+
+    .box_content1{
+        width: 260px;
+        height: 180px;
+        margin-top: 180px;
+        margin-left: -20px;
+    }
+
+}
